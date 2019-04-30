@@ -24,7 +24,9 @@ public class UserOfList {
         }
         System.out.println( "populated list: " + list
                           + System.lineSeparator());
+	System.out.println(list.size());
 
+	/*
         // get
         System.out.println( "element 2: " + list.get( 2) + " expecting \"u\"");
         System.out.println( "element 0: " + list.get( 0) + " expecting \"S\"");
@@ -50,6 +52,11 @@ public class UserOfList {
         removeTest( 0            , "5 elements [s,T,u,Y,efficiently,]");
         removeTest( list.size()-1, "4 elements [s,T,u,Y,]");;
         System.out.println();
+	*/
+
+
+	System.out.println(list);
+	System.out.println(list.toStringTwo());
     }
     
     
