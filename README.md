@@ -1,1 +1,1 @@
-# 64_List_chainWithSentinel
+# represent a list as a chain with a sentinel node
